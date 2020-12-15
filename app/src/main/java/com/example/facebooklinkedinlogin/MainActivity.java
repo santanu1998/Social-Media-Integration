@@ -16,6 +16,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -123,7 +125,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                                 try {
                                     name = object.getString("name");
                                     id = object.getString("id");
-                                    if(object.getJSONObject("picture").getJSONObject("data").getString("url") != null) {
+                                    if(!(object.getJSONObject("picture").getJSONObject("data").getString("url") != null)) {
                                         profilePicUrl = object.getJSONObject("picture").getJSONObject("data").getString("url");
                                     }else{
                                         profilePicUrl = "null";

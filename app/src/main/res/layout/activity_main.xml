@@ -52,6 +52,7 @@
             android:layout_width="200dp"
             android:layout_height="35dp"
             android:paddingHorizontal="5dp"
+            android:visibility="invisible"
             android:layout_gravity="center_horizontal|center_vertical"
             android:gravity="center_horizontal|center_vertical"
             android:drawableLeft="@drawable/fb_logo"
@@ -112,6 +113,6 @@
             android:layout_height="wrap_content"
             android:textSize="10dp"
             android:gravity="center_vertical"
-            android:text="2020 Mounika Ala for The Sparks Foundation"></TextView>
+            android:text="2020 Santanu Singha for The Sparks Foundation"></TextView>
     </LinearLayout>
 </RelativeLayout>

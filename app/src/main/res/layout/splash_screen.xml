@@ -48,7 +48,7 @@
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ALA V V N L MOUNIKA"
+            android:text="Santanu Singha"
             android:textSize="15sp"
             android:textStyle="bold"
             android:textColor="#4267B2"

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "896681751811",
+    "project_id": "social-media-int-1608022674879",
+    "storage_bucket": "social-media-int-1608022674879.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896681751811:android:08c3e177e66623d1866536",
+        "android_client_info": {
+          "package_name": "com.example.facebooklinkedinlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896681751811-d259ifnb27nphduqc1q4844i9dunb8dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsViLKhXfN-baKL1PxtkkrwJmE6Q27HCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896681751811-d259ifnb27nphduqc1q4844i9dunb8dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
